@@ -2,7 +2,7 @@
 title: Alist 网盘挂载教程：打造你的云端文件管理系统
 published: 2025-01-20
 description: '想要一个统一管理所有网盘的平台吗？Alist 让这一切变得简单。本教程将带你快速搭建并配置 Alist，轻松实现多网盘集中管理。'
-image: ''
+image: './FILES/Alist安装教程.assets/img-20250121000541.png'
 tags: [Alist]
 category: '技术教程'
 draft: false 
