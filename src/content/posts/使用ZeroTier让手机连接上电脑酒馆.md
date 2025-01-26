@@ -3,7 +3,7 @@ title: '手机也能远程连接电脑酒馆?ZeroTier一招搞定!'
 published: 2025-01-22
 description: '想在外面也能和AI对话?本文教你用ZeroTier实现手机远程访问电脑上的Silly Tavern,无需公网IP,小白也能轻松上手!'
 image: './FILES/使用ZeroTier让手机连接上电脑酒馆.assets/img-20250122161404.png'
-tags: ['ZeroTier', '酒馆']
+tags: ['ZeroTier', '酒馆' ,'Silly Tavern']
 category: '技术教程'
 draft: false 
 lang: ''
