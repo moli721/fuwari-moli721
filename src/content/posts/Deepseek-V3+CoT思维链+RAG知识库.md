@@ -125,6 +125,10 @@ V3 模型在训练时融入了 R1 的推理能力，虽然它本身不是专门�
 启用知识库后，AI 能够引用知识库中的内容，大大增强其注意力和检索能力。
 ![Img](./FILES/Deepseek-V3+CoT思维链+RAG知识库.assets/img-20250126172729.png)
 
+对应的流程图（AI生成）：
+![Img](./FILES/Deepseek-V3+CoT思维链+RAG知识库.assets/img-20250128213546.png)
+
+
 ---
 
 
