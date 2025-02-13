@@ -67,14 +67,14 @@ KV提供键值对存储，适用于：
 
 ### 4. 域名配置
 
-1. 配置API服务域名（我使用的是apimail.molii721.us.kg）
+1. 配置API服务域名（我使用的是`apimail.molii721.us.kg`）
 2. 设置邮件转发规则，将发往molii721.us.kg的邮件转发到对应的Workers
 
 ### 5. 前端部署
 
 1. 访问 https://temp-mail-docs.awsl.uk/zh/guide/ui/pages 生成前端代码
 2. 下载frontend.zip并部署
-3. 配置前端访问域名（我使用的是mail.molii721.us.kg）
+3. 配置前端访问域名（我使用的是`mail.molii721.us.kg`）
 
 ## 系统使用和管理
 
