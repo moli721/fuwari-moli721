@@ -4,7 +4,7 @@ published: 2025-02-27
 description: '告别数据同步烦恼！手把手教你用 Alist+Webdav 搭建免费私有云盘，轻松实现跨平台数据同步与备份'
 image: ''
 tags: ['Alist', 'Webdav', '数据同步']
-category: '教程'
+category: '技术教程'
 draft: false
 lang: 'zh'
 ---
