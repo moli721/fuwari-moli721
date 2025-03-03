@@ -3,7 +3,7 @@ title: CherryStudio导出话题至Notion
 published: 2025-03-03
 description: '详细介绍如何将CherryStudio中的话题导出到Notion数据库的教程'
 image: ''
-tags: ['CherryStudio', 'Notion']
+tags: ['Cherry Studio', 'Notion']
 category: '工具使用'
 draft: false 
 lang: 'zh'
