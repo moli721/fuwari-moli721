@@ -2,8 +2,7 @@
 title: Spaceship域名购买与Cloudflare托管完全指南
 published: 2025-03-21
 description: '详细介绍如何在Spaceship购买域名并将其托管到Cloudflare的完整流程指南'
-image: '![Img](./FILES/Spaceship域名购买与Cloudflare托管完全指南.assets/img-20250321220127.png)
-'
+image: './FILES/Spaceship域名购买与Cloudflare托管完全指南.assets/img-20250322004840.png'
 tags: ['域名','Cloudflare', 'Spaceship']
 category: '工具使用'
 draft: false 
