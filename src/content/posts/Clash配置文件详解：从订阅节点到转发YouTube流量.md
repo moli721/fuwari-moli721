@@ -3,8 +3,8 @@ title: Clash配置文件详解：从订阅节点到转发YouTube流量
 published: 2025-02-16
 description: '详细介绍Clash配置文件的结构和编写方法,包括DNS设置、规则集配置、代理组设置等,帮助你实现更精细的流量分流。'
 image: './FILES/Clash配置文件详解：从订阅节点到转发YouTube流量.assets/img-20250216154906.png'
-tags: ["clash"]
-category: '技术教程'
+tags: ["Clash"]
+category: '网络工具'
 draft: false 
 lang: ''
 ---
