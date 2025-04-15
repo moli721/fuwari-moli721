@@ -3,7 +3,7 @@ title: 白嫖党福音：Clawcloud免费部署AList全攻略
 published: 2025-04-14
 description: '详细介绍如何利用 Clawcloud 免费额度部署 AList，包含完整配置步骤和踩坑经验'
 image: './FILES/白嫖党福音：Clawcloud免费部署AList全攻略.assets/img-20250414224717.png'
-tags: ['AList', 'Clawcloud', 'Docker', 'Cloudflare']
+tags: ['AList', 'Clawcloud', 'Cloudflare']
 category: '技术教程'
 draft: false 
 lang: 'zh-CN'
@@ -38,6 +38,42 @@ lang: 'zh-CN'
 ### 部署前准备
 1. 注册时间超过 180 天的 GitHub 账号（用于登录 Clawcloud Run）
 2. Cloudflare 账号（用于创建隧道）
+
+## 部署原理
+
+在开始具体的部署步骤之前，让我们先了解整个系统的工作原理，这将帮助你更好地理解配置过程。
+
+### 为什么需要 Cloudflare 隧道？
+Clawcloud 上部署的 AList 是一个内网服务，外部网络无法直接访问。为了使服务能够被外部访问，我们需要使用 Cloudflare 隧道来建立一个安全的连接通道。
+
+### 工作流程
+1. **内网服务**
+   - AList 部署在 Clawcloud 内部
+   - 获得内网地址：`alist-xxx.ns-xxx.svc.cluster.local:5244`
+
+2. **隧道建立**
+   - 在 Cloudflare 创建隧道并获取 Token
+   - 配置 CNAME 记录（如：`alist-cf.moli721.xyz`）作为隧道入口
+   - 在 Clawcloud 部署 cloudflared 客户端维持隧道连接
+   - 设置公共主机名（如：`alist.moli721.xyz`）作为访问入口
+
+3. **请求流程**
+   ```
+   用户访问 alist.moli721.xyz
+          ↓
+   Cloudflare 处理请求
+          ↓
+   通过已建立的隧道转发
+          ↓
+   cloudflared 客户端接收请求
+          ↓
+   转发至 AList 内网服务
+   ```
+
+### 关键组件说明
+- **cloudflared 客户端**：运行在 Clawcloud 上的隧道客户端，负责维持隧道连接和请求转发
+- **CNAME 记录**：用于注册隧道连接点，使 Cloudflare 能够找到正确的隧道
+- **公共主机名**：用户实际访问的域名，通过隧道将请求转发到内部服务
 
 ## AList 部署步骤
 
