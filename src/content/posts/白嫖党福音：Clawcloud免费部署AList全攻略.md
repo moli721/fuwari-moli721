@@ -3,7 +3,7 @@ title: 白嫖党福音：Clawcloud免费部署AList全攻略
 published: 2025-04-14
 description: '详细介绍如何利用 Clawcloud 免费额度部署 AList，包含完整配置步骤和踩坑经验'
 image: './FILES/白嫖党福音：Clawcloud免费部署AList全攻略.assets/img-20250414224717.png'
-tags: ['AList', 'Clawcloud', 'Cloudflare']
+tags: ['Alist', 'Clawcloud', 'Cloudflare']
 category: '技术教程'
 draft: false 
 lang: 'zh-CN'
