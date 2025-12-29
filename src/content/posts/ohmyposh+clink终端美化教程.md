@@ -14,6 +14,8 @@ lang: ''
 <iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1dntWe9Eub&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 详细对于终端的配置可以查看[官方文档](https://ohmyposh.dev/docs/installation/prompt)
+![Img](./FILES/ohmyposh+clink终端美化教程.assets/img-20250522234306.png)
+
 
 > 针对在cmd中'oh-my-posh' 不是内部或外部命令,也不是可运行的程序 或批处理文件。
 
@@ -24,6 +26,8 @@ local oh_my_posh = io.popen([[H:/workspaces/terminalbeauty/oh-my-posh/bin/oh-my-
 load(oh_my_posh)()
 ```
 后面的`--config`是主题配置，详细路径在`H:\workspaces\terminalbeauty\oh-my-posh\themes`，在官方文档里面也同时有效果预览：https://ohmyposh.dev/docs/themes
+![Img](./FILES/ohmyposh+clink终端美化教程.assets/img-20250522234339.png)
+
 
 使用的字体：`JetBrainsMonoNerdFont-Italic`
 在我计算机位置：`"H:\workspaces\terminalbeauty\JetBrainsMono\JetBrainsMonoNerdFont-Italic.ttf"`

@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "8a0b7eb93973a55b",
+    "type": "split",
+    "children": [
+      {
+        "id": "33e15cbad0b5dfda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db59e3c7aef11477",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "323bdb019106ba66",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8e78eea27dc14a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4de3041f68931b8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a9f33ff6d24de78f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5a5c1c150a146a21",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "224f989383ff025d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fb7353c0cab4d61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29e288b2d61c99f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "大学生数学竞赛暑期特训.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "大学生数学竞赛暑期特训 的反向链接列表"
+            }
+          },
+          {
+            "id": "a3828199234e2971",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "大学生数学竞赛暑期特训.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "大学生数学竞赛暑期特训 的出链列表"
+            }
+          },
+          {
+            "id": "2eb390b46667320f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "4cb136df1a33dfa0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "i18n:I18N": false
+    }
+  },
+  "active": "4cb136df1a33dfa0",
+  "lastOpenFiles": [
+    "测试1.md",
+    "FILES/测试1.assets/img-20250506000118.png",
+    "FILES/测试1.assets",
+    "·.md",
+    "FILES/{filename}.assets/file-20250505235322377.png",
+    "FILES/{filename}.assets",
+    "1.md",
+    "2025-05-04.md",
+    "默认话题.md",
+    "FILES/${docBasename}.assets/Pasted image 20250504101051.png",
+    "FILES/${docBasename}.assets",
+    "FILES/{docBasename}.assets/Pasted image 20250504100530.png",
+    "FILES/{docBasename}.assets",
+    "attachments/Pasted image 20250504100400.png",
+    "attachments",
+    "Pasted image 20250504100018.png",
+    "测试/测试.md/img-20241101160249.png",
+    "测试/测试.md/img-20241101160231.png",
+    "未命名.canvas",
+    "STL.md",
+    "计算机网络.md",
+    "数学.md",
+    "大学生数学竞赛暑期特训.md",
+    "前端基础.md",
+    "Javascript学习笔记.md",
+    "C++优先队列与比较器笔记.md"
+  ]
+}
